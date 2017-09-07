@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <title> Do you know your actor? </title>
+<link rel="stylesheet" href="style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -15,110 +16,6 @@ $(document).ready(function(){
                window.location="arkadium2.html";
             }
 </script>
-<style>
-div.container {
-    width: 100%;
-    background-color: #FFDAB9;
-}
-
-header, footer {
-    padding: 3em;
-    color: white;
-    background-image: url(abcd.jpg);
-    clear: left;
-    text-align: center;
-}
-
-nav {
-    float: left;
-    max-width: 700px;
-    margin: 0;
-    padding: 1em;
-    text-align: justify;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-   
-nav ul a {
-    text-decoration: none;
-}
-
-article {
-    margin-left: 740px;
-    border-left: 3px solid gray;
-    width: 300px;
-    border: 25px solid green;
-    padding: 35px;
-    margin-left: 20%;
-    margin-right: 10%;
-    margin-top: 5%;
-    overflow: hidden;
-    text-align: center;
-}
-
-article p.demo {
-	color: red;
-}
-
-button {
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 14px;
-  padding: 12px;
-  width: 150px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-img {
-   border: 10px solid transparent;
-   padding: 15px;
-   border-image: url(border.png) 30 round;
-}
-
-h1 {
-  font-family: 'CoreCircus', sans-serif;
-  text-transform: uppercase;
-  font-size: 8vw;
-  text-align: center;
-  line-height: 1;
-  margin: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  position: absolute;
-  color: #f98ca4;
-  text-shadow: -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58, 1px 0px 0px #65f283, 0px 1px 0px #65f283, 2px 1px 0px #65f283, 1px 2px 0px #65f283, 3px 2px 0px #65f283, 2px 3px 0px #65f283, 4px 3px 0px #65f283, 3px 4px 0px #65f283, 5px 4px 0px #65f283, 3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58, -1px 2px 0 black, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58, 2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58, 10px 10px 4px #dac249;
-}
-h1:after, h1:before {
-  content: attr(data-heading);
-  position: absolute;
-  overflow: hidden;
-  left: 0;
-  width: 100%;
-  top: 0;
-  z-index: 5;
-}
-h1:before {
-  text-shadow: -1px -1px 0 #9e132c, 1px -1px 0 #9e132c, -1px 1px 0 #9e132c, 1px 1px 0 #9e132c, 1px 0px 0px #f5b10b, 0px 1px 0px #f5b10b, 2px 1px 0px #f5b10b, 1px 2px 0px #f5b10b, 3px 2px 0px #f5b10b, 2px 3px 0px #f5b10b, 4px 3px 0px #f5b10b, 3px 4px 0px #f5b10b, 5px 4px 0px #f5b10b, 3px 5px 0px #9e132c, 6px 5px 0px #9e132c, -1px 2px 0 black, 0 3px 0 #9e132c, 1px 4px 0 #9e132c, 2px 5px 0px #9e132c, 2px -1px 0 #9e132c, 3px 0 0 #2f3e9c, 4px 1px 0 #9e132c, 5px 2px 0px #9e132c, 6px 3px 0 #9e132c, 7px 4px 0 #9e132c, 10px 10px 4px rgba(106, 241, 119, 0.8);
-  color: #65f283;
-  height: 66%;
-}
-h1:after {
-  height: 33%;
-  color: #4ad9db;
-  text-shadow: -1px -1px 0 #2f3e9c, 1px -1px 0 #2f3e9c, -1px 1px 0 #2f3e9c, 1px 1px 0 #2f3e9c, 1px 0px 0px #f98ca4, 0px 1px 0px #f98ca4, 2px 1px 0px #f98ca4, 1px 2px 0px #f98ca4, 3px 2px 0px #f98ca4, 2px 3px 0px #f98ca4, 4px 3px 0px #f98ca4, 3px 4px 0px #f98ca4, 5px 4px 0px #f98ca4, 3px 5px 0px #2f3e9c, 6px 5px 0px #2f3e9c, -1px 2px 0 black, 0 3px 0 #2f3e9c, 1px 4px 0 #2f3e9c, 2px 5px 0px #2f3e9c, 2px -1px 0 #2f3e9c, 3px 0 0 #2f3e9c, 4px 1px 0 #2f3e9c, 5px 2px 0px #2f3e9c, 6px 3px 0 #2f3e9c, 7px 4px 0 #2f3e9c;
-}
-
-
-</style>
 </head>
 <body>
 <div class="container">
